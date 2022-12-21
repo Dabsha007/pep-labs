@@ -6,15 +6,17 @@ public class HelloWorld {
      * You can use the test results to check for differences.
      * @return "Hello, world!"
      */
+    
     public String sayHello(){
         return "change me";
     }
+    String hello world; 
+}
+public static void main(String[]args){
+HelloWorld hi = new HelloWorld();
+hi.hello world; 
+System.out.printlin(hi); 
 
-    public static void main(String[]args){
-        HelloWorld hello = new HelloWorld();
-        String result = hello.sayHello(); 
-        System.out.println(result);
-        System.out.println(hello);  
+ 
     }
 }
-    
