@@ -9,14 +9,11 @@ public class HelloWorld {
     
     public String sayHello(){
         return "change me";
-    }
-    String hello world; 
-}
+        }
+
 public static void main(String[]args){
 HelloWorld hi = new HelloWorld();
-hi.hello world; 
-System.out.printlin(hi); 
-
- 
-    }
+hi.sayHello(); 
+System.out.println(hi); 
+ }
 }
