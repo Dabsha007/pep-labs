@@ -9,4 +9,9 @@ public class HelloWorld {
     public String sayHello(){
         return "change me";
     }
+    public class main{
+    public static void main(String[]args){
+        
+        }
+    }
 }
