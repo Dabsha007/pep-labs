@@ -35,3 +35,8 @@ public class GuideMain {
  *  Your task will be modifying the code in the remainder of the course repo so that their test cases pass rather
  *  than fail.
  */
+public static void main(String[]args){
+    HelloWorld hello = new HelloWorld();
+    String result = hello.sayHello(); 
+    System.out.println(result);
+    System.out.println(hello);  
