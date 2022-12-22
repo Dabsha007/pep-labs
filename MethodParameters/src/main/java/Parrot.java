@@ -15,8 +15,8 @@ public class Parrot {
         return "hello";
     }
     public static void main(String[]args){
-        Parrot 
         String str = "hello";
+        Parrot p = new Parrot(); 
         System.out.println(str); 
 
     }
