@@ -12,12 +12,19 @@ public class Parrot {
      * @return text.
      */
     public String copy(String text){
+        return "polly";
+        }
+    public String test(String text){
         return "hello";
     }
-    public static void main(String[]args){
-        String str = "hello";
+    
+        
+    public static void main(String[]args){ 
         Parrot p = new Parrot(); 
+        String str = p.copy("polly"); 
         System.out.println(str); 
+        String str1 = p.test("hello");
+        System.out.println(str1);  
 
-    }
+}
 }
