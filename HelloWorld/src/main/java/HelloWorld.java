@@ -8,12 +8,13 @@ public class HelloWorld {
      */
     
     public String sayHello(){
-        return "change me";
+        return "Hello, world!";
         }
-
+ 
 public static void main(String[]args){
-HelloWorld hi = new HelloWorld();
-hi.sayHello(); 
+String hi = "hello world";
+
 System.out.println(hi); 
  }
 }
+
