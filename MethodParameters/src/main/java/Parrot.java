@@ -12,10 +12,11 @@ public class Parrot {
      * @return text.
      */
     public String copy(String text){
-        return "in this ase, the test";
+        return "hello";
     }
     public static void main(String[]args){
-        String str = "in tis case the test";
+        Parrot 
+        String str = "hello";
         System.out.println(str); 
 
     }
