@@ -20,10 +20,10 @@ public class Parrot {
     
         
     public static void main(String[]args){ 
-        Parrot p = new Parrot(); 
-        String str = p.copy("polly"); 
+       
+        String str = new String ("polly"); 
         System.out.println(str); 
-        String str1 = p.test("hello");
+        String str1 = new String ("hello");
         System.out.println(str1);  
 
 }
