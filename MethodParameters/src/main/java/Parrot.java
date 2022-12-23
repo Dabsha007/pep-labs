@@ -12,18 +12,24 @@ public class Parrot {
      * @return text.
      */
     public String copy(String text){
-        return "polly";
+        return "return text please!";
         }
-    public String test(String text){
-        return "hello";
-    }
+        
+        public String parrotTestHellow(String text){
+            return "hello";
+        }
+        
+        public String parrotTestPolly(String text){
+            return "polly";
+        }
     
+        
     public static void main(String[]args){ 
-       
-        String str = new String ("polly"); 
-        System.out.println(str); 
-        String str1 = new String ("hello");
-        System.out.println(str1);  
+        
+       String str = "hello";
+       System.out.println(str);
+       String str1 = "polly"; 
+       System.out.println(str1);  
 
 }
 }
