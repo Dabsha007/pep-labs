@@ -17,19 +17,16 @@ public class Parrot {
         
         public String parrotTestHellow(String text){
             return "hello";
-        }
+           }
         
         public String parrotTestPolly(String text){
-            return "polly";
+           return "polly";
         }
     
         
     public static void main(String[]args){ 
-        
-       String str = "hello";
-       System.out.println(str);
-       String str1 = "polly"; 
-       System.out.println(str1);  
-
+     Parrot p = new Parrot(); 
+     String input = "hello";
+     String str = p.parrotTestHellow(input);
 }
 }
