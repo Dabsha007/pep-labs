@@ -18,7 +18,6 @@ public class Parrot {
         return "hello";
     }
     
-        
     public static void main(String[]args){ 
        
         String str = new String ("polly"); 
