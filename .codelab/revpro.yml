@@ -95,6 +95,7 @@
       lessThanOrEqualToTest3: 0
       notEqualToTest1: 0
       notEqualToTest2: 0
+      ComparatorsTest: 0
   CombineStrings:
     :Week: 1
     :Order: 5

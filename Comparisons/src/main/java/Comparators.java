@@ -15,6 +15,9 @@ public class Comparators {
      */
     public boolean isEqual(int a, int b){
         return false;
+        int a = 8;
+        int b = 6; 
+
     }
 
     /**
@@ -24,6 +27,8 @@ public class Comparators {
      */
     public boolean greaterThan(int a, int b){
         return false;
+        int a = 6; 
+        int b = 8; 
     }
     /**
      * @param a the first number to be compared.
@@ -32,6 +37,8 @@ public class Comparators {
      */
     public boolean lessThan(int a, int b){
         return false;
+        int a = 8; 
+        int b = 6; 
     }
     /**
      * @param a the first number to be compared.
@@ -40,6 +47,8 @@ public class Comparators {
      */
     public boolean greaterThanOrEqualTo(int a, int b){
         return false;
+        int a = 6;
+        int b = 8; 
     }
     /**
      * @param a the first number to be compared.
@@ -48,6 +57,9 @@ public class Comparators {
      */
     public boolean lessThanOrEqualTo(int a, int b){
         return false;
+        int a = 8; 
+        int b = 6; 
+
     }
 
     /**
@@ -57,8 +69,29 @@ public class Comparators {
      */
     public boolean notEqualTo(int a, int b){
         return false;
+        int a = 8;
+        int b = 8;
     }
 }
 public static void main (String []args){
-    
+    Comparators c = new Comparators(); 
+    boolean return1 = c.isEqual(8, 6); 
+    System.out.println(return1); 
+
+    boolean return2 = c.greaterThan(6, 8); 
+    System.out.println(return2); 
+
+    boolean return3 = c.lessThan(8, 6);
+    System.out.println(return3 ); 
+
+    boolean return4 = c.greaterThanOrEqualTo(6, 8); 
+    System.out.println(return4); 
+
+    boolean return5 = c.lessThanOrEqualTo(8, 6); 
+    System.out.println(return5); 
+
+    boolean return6 = c.notEqualTo(8, 8);
+    System.out.println(return6); 
+
+}
 }
