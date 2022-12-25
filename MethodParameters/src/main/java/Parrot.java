@@ -24,7 +24,7 @@ public class Parrot {
     public static void main(String[]args){
      Parrot p = new Parrot(); 
      System.out.println(p.copy("hello")); 
+     System.out.println(p.test("polly"));
      
-
 }
 }
