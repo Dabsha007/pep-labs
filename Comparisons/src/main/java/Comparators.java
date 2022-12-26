@@ -17,8 +17,8 @@ public class Comparators {
         return false;
         int a = 8;
         int b = 6; 
-
-    }
+        boolean result = (a == b); 
+}
 
     /**
      * @param a the first number to be compared.
@@ -26,9 +26,10 @@ public class Comparators {
      * @return true if a is greater than b, false otherwise.
      */
     public boolean greaterThan(int a, int b){
-        return false;
-        int a = 6; 
-        int b = 8; 
+        return true;
+        int a = 8; 
+        int b = 6;
+        boolean result = (a > b);  
     }
     /**
      * @param a the first number to be compared.
@@ -36,7 +37,7 @@ public class Comparators {
      * @return true if a is less than b, false otherwise.
      */
     public boolean lessThan(int a, int b){
-        return false;
+        return ;
         int a = 8; 
         int b = 6; 
     }
