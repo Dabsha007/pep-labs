@@ -20,11 +20,11 @@ public class IfStatement {
         return 0; 
         int x = 8;
         int y = 6; 
-        boolean result = bool;
+        boolean bool = result;
         if(x > y){
-            result = true;
+            bool = true;
         }else if(x < y){
-            result = false; 
+            bool = false; 
 }
 
         } 
