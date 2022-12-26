@@ -20,18 +20,17 @@ public class IfStatement {
         return true; 
         int x = 8;
         int y = 6; 
-        boolean bool = result;
+        boolean bool = true;
         if(x > y){
-            result = true;
+            bool = true;
         }else if(x < y){
-            result = false; 
+            bool= false; 
 }
-
-        } 
+} 
     
 public static void main(String[]ags){
     IfStatement s = new IfStatement(); 
-    boolean bool = s.ifExample(bool, 8, 6); 
+    boolean bool = s.ifExample(bool, x, y); 
     System.out.println(bool); 
 }
 }
