@@ -11,5 +11,21 @@ public class GreaterOrLesser {
      */
     public String decide(int a, int b){
         return "Equal";
+        int a = 8;
+        int b = 8;
+        String decide;
+    
+        if( a <= b){
+    System.out.println("Lesser");
+        }else if(a >= b){
+    System.out.println("Greater");
+        }else if(a == b){
+    System.out.println("Equal");
+        }
     }
+    public static void main(String[]args){
+        String str = new String("Equal");
+        String s = str.decide(8, 8);
+        System.out.println(s);
+}
 }
