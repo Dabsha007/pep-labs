@@ -37,9 +37,10 @@ public class Comparators {
      * @return true if a is less than b, false otherwise.
      */
     public boolean lessThan(int a, int b){
-        return ;
-        int a = 8; 
-        int b = 6; 
+        return true;
+        int a = 6; 
+        int b = 8; 
+        boolean result = (a < b);
     }
     /**
      * @param a the first number to be compared.
@@ -47,9 +48,10 @@ public class Comparators {
      * @return true if a is greater than or equal to b, false otherwise.
      */
     public boolean greaterThanOrEqualTo(int a, int b){
-        return false;
-        int a = 6;
+        return true;
+        int a = 8;
         int b = 8; 
+        boolean result = (a >= b); 
     }
     /**
      * @param a the first number to be compared.
@@ -59,7 +61,8 @@ public class Comparators {
     public boolean lessThanOrEqualTo(int a, int b){
         return false;
         int a = 8; 
-        int b = 6; 
+        int b = 6;
+        boolean result = (a <= b);  
 
     }
 
@@ -72,27 +75,27 @@ public class Comparators {
         return false;
         int a = 8;
         int b = 8;
+        boolean result = (a !== b);
     }
-}
+
 public static void main (String []args){
     Comparators c = new Comparators(); 
-    boolean return1 = c.isEqual(8, 6); 
-    System.out.println(return1); 
+    boolean result1 = c.isEqual(8, 6); 
+    System.out.println(result1); 
 
-    boolean return2 = c.greaterThan(6, 8); 
-    System.out.println(return2); 
+    boolean result2 = c.greaterThan(8, 6); 
+    System.out.println(result2); 
 
-    boolean return3 = c.lessThan(8, 6);
-    System.out.println(return3 ); 
+    boolean result3 = c.lessThan(6, 8);
+    System.out.println(result3 ); 
 
-    boolean return4 = c.greaterThanOrEqualTo(6, 8); 
-    System.out.println(return4); 
+    boolean result4 = c.greaterThanOrEqualTo(8, 8); 
+    System.out.println(result4); 
 
-    boolean return5 = c.lessThanOrEqualTo(8, 6); 
-    System.out.println(return5); 
+    boolean result5 = c.lessThanOrEqualTo(8, 6); 
+    System.out.println(result5); 
 
-    boolean return6 = c.notEqualTo(8, 8);
-    System.out.println(return6); 
-
+    boolean result6 = c.notEqualTo(8, 8);
+    System.out.println(result6); 
 }
 }
