@@ -14,8 +14,10 @@ public class Expressions {
      * @return if b is true, return true. if b is false, return false.
      */
     public boolean returnBoolean(boolean b){
-        return false;
-    }
+        return (b && b);
+        boolean b = true;
+        boolean b = false;   
+}
 
     /**
      * @param b a true/false value.
@@ -23,7 +25,9 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnNot(boolean b){
-        return false;
+        return (b !&& b);
+        boolean b = true;
+        boolean b = false;  
     }
 
     /**
@@ -33,7 +37,9 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnAnd(boolean b1, boolean b2){
-        return false;
+        return (b1 && b2);
+        boolean b1 = true; 
+        boolean b2 = true;     
     }
 
     /**
@@ -43,7 +49,21 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnOr(boolean b1, boolean b2){
-        return false;
+        return ( b1 || b2);
+        boolean b1 = false; 
+        boolean b2 = false;
+    }
+    public static void main(String[]args){
+        Expressions ex = new Expressions();
+        boolean aool = ex.returnBoolean(b); 
+        System.out.println(aool);
+        boolean bool = ex.returnNot(b);
+        System.out.println(bool);
+        boolean dool = ex.returnAnd(b1, b2);
+        System.out.println(dool); 
+        boolean cool = ex.returnOr(b1, b2);
+        System.out.println(cool);
+
     }
 
 
