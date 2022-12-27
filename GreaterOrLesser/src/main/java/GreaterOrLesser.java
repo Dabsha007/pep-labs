@@ -10,21 +10,20 @@ public class GreaterOrLesser {
      *          If neither is true, return "Equal". This problem is case-sensitive!
      */
     public String decide(int a, int b){
-        return "Equal";
-        int a = 8;
-        int b = 8;
-        String decide;
-    
-        if( a <= b){
-    System.out.println("Lesser");
-        }else if(a >= b){
-    System.out.println("Greater");
+        
+    String decide = "String";
+      
+        if( a < b){
+    decide = ("Lesser");
+        }else if(a > b){
+    decide = ("Greater");
         }else if(a == b){
-    System.out.println("Equal");
+    decide = ("Equal");
         }
+    return decide;
     }
     public static void main(String[]args){
-        String str = new String("Equal");
+        GreaterOrLesser str = new GreaterOrLesser();
         String s = str.decide(8, 8);
         System.out.println(s);
 }
