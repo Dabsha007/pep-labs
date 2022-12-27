@@ -15,10 +15,9 @@ public class Subtract {
      * @return a minus b
      */
     public double sub(double a, double b){
-        return 15.50;
-        double a = 39.50; 
-        double b = 24.00; 
-        double resuls = ( a - b);
+       
+    double result = (a - b);
+    return result;
     }
     public static void main(String[]arg){
         Subtract sbt = new Subtract();
