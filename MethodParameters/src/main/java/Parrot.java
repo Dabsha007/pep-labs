@@ -13,18 +13,15 @@ public class Parrot {
      */
     
      public String copy(String text){
-        return "hello";
+        return text;
      }
-     public String test(String text){
-        return "polly";
-     }
-        
+     
     
         
     public static void main(String[]args){
      Parrot p = new Parrot(); 
-     System.out.println(p.copy("hello")); 
-     System.out.println(p.test("polly"));
-     
+     String st = p.copy("hello");
+     System.out.println(st); 
+    
 }
 }
