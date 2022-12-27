@@ -11,10 +11,8 @@ public class Add {
      * @return the sum of a and b.
      */
     public int addNumbers(int a, int b){
-        return 14;
-        int a = 8;
-        int b = 6; 
-        int sum = (a + b); 
+       int sum = (a + b); 
+        return sum;
     }
     public static void main(String[]args){
         Add ad1 = new Add();
