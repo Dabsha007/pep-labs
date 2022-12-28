@@ -23,7 +23,7 @@ public class InstantiationExample {
  public static void main(String[]args){
     InstantiationExample ex = new InstantiationExample();
     if(ex.instantiateANewObject() == null){
-        return;
+        return null;
     }
     
 
