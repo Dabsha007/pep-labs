@@ -20,4 +20,13 @@ public class InstantiationExample {
     public Object instantiateANewObject(){
         return null;
     }
+ public static void main(String[]args){
+    InstantiationExample ex = new InstantiationExample();
+    String s = ex.instantiateANewObject(null);
+    System.out.println(s);
+    
+
+
+
+ }   
 }
