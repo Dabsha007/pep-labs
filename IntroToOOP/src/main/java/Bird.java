@@ -27,11 +27,13 @@
  * 
  * 
  */
+import java.util.Scanner;
 public class Bird {
     /**
      * A variable (in this context, often referred to as a field), which represents the age of the bird.
      */
-    public int ageMonths;
+    public String ageMonths;
+
 
     /**
      * A constructor for the bird class: this method allows us to build a new bird with the 'new' keyword.
@@ -48,4 +50,33 @@ public class Bird {
         return "";
     }
 
+
+    
+public static void main(String[]args){
+    Scanner sc = new Scanner(System.in);
+    String ageMonths = sc.nextLine();
+
+    
+    Bird b = new Bird();
+    b.ageMonths = " Age Less than 3 Years Old"; 
+    b.ageMonths = "Age Greater than or Equal to 3 Years Old";
+
+    Bird a = new Bird();
+    String twt = a.sound("Tweet"); 
+    String twt1 = a.sound("Chirp");
+    System.out.println("Bird Sound as Fallow:");
+
+     if(Age Less than 3 Years Old){
+        return "Tweet";
+    else if(Age Greater than or Equal to 3 Years Old){
+        return "Chirp"; 
+    }
+    close scanner;
+
+    }
+
+
+
+     
+}
 }
