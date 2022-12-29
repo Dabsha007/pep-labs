@@ -40,6 +40,7 @@ public class Bird {
      */
     public Bird(String ageMonths){
         this.ageMonths = ageMonths; 
+    
 
     }
     /**
@@ -53,26 +54,15 @@ public class Bird {
 
     
 public static void main(String[]args){
-    Bird b = new Bird();
-    b.ageMonths = " Age Less than 3 Years Old"; 
-    b.ageMonths = "Age Greater than or Equal to 3 Years Old";
-
-    Bird a = new Bird();
-    String twt = a.sound("Tweet"); 
-    String twt1 = a.sound("Chirp");
-    System.out.println("Bird Sound as Fallow:");
-
-     if(Age Less than 3 Years Old){
+    
+    Bird b = new Bird(ageMonths); 
+     
+    b.ageMonths = "Bird Age Less than 3 Years Old || Bird Age Greater than or Equal to 3 Years Old"; 
+    b.sound(); 
+    if(bird age < 3){
         return "Tweet";
-    else if(Age Greater than or Equal to 3 Years Old){
+    else if(bird age >= 3){
         return "Chirp"; 
     }
-    close scanner;
 
-    }
-
-
-
-     
-}
 }
