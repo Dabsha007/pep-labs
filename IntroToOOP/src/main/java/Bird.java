@@ -27,7 +27,6 @@
  * 
  * 
  */
-import java.util.Scanner;
 public class Bird {
     /**
      * A variable (in this context, often referred to as a field), which represents the age of the bird.
@@ -39,7 +38,8 @@ public class Bird {
      * A constructor for the bird class: this method allows us to build a new bird with the 'new' keyword.
      * No need to change anything here, for now.
      */
-    public Bird(){
+    public Bird(String ageMonths){
+        this.ageMonths = ageMonths; 
 
     }
     /**
@@ -47,16 +47,12 @@ public class Bird {
      *  * greater than or equal to 3.
      */
     public String sound(){
-        return "";
+        return "Tweet || Chirp";
     }
 
 
     
 public static void main(String[]args){
-    Scanner sc = new Scanner(System.in);
-    String ageMonths = sc.nextLine();
-
-    
     Bird b = new Bird();
     b.ageMonths = " Age Less than 3 Years Old"; 
     b.ageMonths = "Age Greater than or Equal to 3 Years Old";
