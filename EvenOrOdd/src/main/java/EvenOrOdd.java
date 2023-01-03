@@ -16,4 +16,14 @@ public class EvenOrOdd {
     public String decide(int n){
         return "";
     }
+    public static void main(String[]args){
+        EvenOrOdd num = new EvenOrOdd ();
+        String nu = num.decide(1); 
+        if(n % 2 == 1){
+            return "Odd"; 
+        }
+        
+
+
+    }
 }
