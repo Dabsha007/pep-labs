@@ -28,6 +28,14 @@ public class ReturnArrayContents {
      * @return a string representation of all values of nums, with the values separated by spaces.
      */
     public String arrayToString(int[] nums){
+        String arrayToString = nums;
+        
+        int[] nums = {3, 4, 5, 6}; 
+        if(int i = 2; i < nums.length; i++) {
+            System.out.println(i); 
+
+        }
+
         return "";
     }
 }
