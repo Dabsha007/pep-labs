@@ -18,11 +18,22 @@ public class ExceptionChallenge {
      */
     public void mustThrow(){
     }
-    public String throwException(int a, int b);
+    
+    public int arryIndexInBound(int[]a, int[]b)throws ArrayIndexOutOfBoundsException{
+        if(int[] a = {2,4,6,8,10}){
 
-    public static void main(String[]args){
-        ExceptionChallenge ex = new ExceptionChallenge(); 
+    
+    return 12; 
+
+        }
+    }
+
+    
 
 
+    
+
+    
+        
     }
 }
