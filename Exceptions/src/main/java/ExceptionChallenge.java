@@ -18,4 +18,11 @@ public class ExceptionChallenge {
      */
     public void mustThrow(){
     }
+    public String throwException(int a, int b);
+
+    public static void main(String[]args){
+        ExceptionChallenge ex = new ExceptionChallenge(); 
+
+
+    }
 }
