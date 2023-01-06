@@ -16,24 +16,11 @@ public class ExceptionChallenge {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
-    public void mustThrow(){
-    }
-    
-    public int arryIndexInBound(int[]a, int[]b)throws ArrayIndexOutOfBoundsException{
-        if(int[] a = {2,4,6,8,10}){
-
-    
-    return 12; 
-
-        }
-    }
-
-    
-
-
-    
-
-    
+    public void mustThrow() throws ArrayIndexOutOfBoundsException {
         
+        int[] numbers = {3, 4, 5, 6, 6};
+        System.out.println(numbers[10]);
     }
+    
+   
 }
