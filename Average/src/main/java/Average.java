@@ -18,9 +18,9 @@ public class Average {
      * @return the average of all the values of nums.
      */
     public double getAvg(int[] nums){
-        int [] nums {1, 2, 3, 4}; 
+        double average = 0;
         for(int i = 0; i < nums.lenght; i++){
-            getAve = sum(nums[])/lenght;
+            average = sum(nums[])/lenght;
         }
         
         return 0; 
