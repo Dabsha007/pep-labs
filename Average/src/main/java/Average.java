@@ -18,6 +18,12 @@ public class Average {
      * @return the average of all the values of nums.
      */
     public double getAvg(int[] nums){
+        double average = 0; 
+        for(int i = 0; i<nums.length; i++){
+        int = average/(getAv.nums[]); 
+        }
+       
+
         return 0;
     }
 }
