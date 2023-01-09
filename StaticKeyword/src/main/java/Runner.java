@@ -1,6 +1,6 @@
 
 public class Runner {
-    static global_var = in; // here i added this line of code
+    static String  global_var = in; // here i added this line of code
     /**
      * This challenge is about interacting with static variables.
      *
@@ -23,7 +23,7 @@ public class Runner {
      * @param in the String value you should change global_var to in.
      */
     public static void changeClassVar(String in){ // here i added static keyword 
-        String static changeClassVar = in; //i added this line of code
+        String static global_var = in; //i added this line of code
         
 
     }
