@@ -1,6 +1,6 @@
 
 public class Runner {
-    String static global_var = in; // here i added this line of code
+    static global_var = in; // here i added this line of code
     /**
      * This challenge is about interacting with static variables.
      *
