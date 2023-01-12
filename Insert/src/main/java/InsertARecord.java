@@ -48,4 +48,5 @@ public class InsertARecord {
 
         return false;
     }
+    update song set title = 'Free to Fly' where artist = 'Beatles';
 }
