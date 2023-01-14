@@ -67,9 +67,6 @@ public class CreateTableWithPK {
             System.out.println("problem1: " + e.getMessage() + '\n');
         }
     }
-    create table song (id int (primary key), column1 title varchar(100), column2 artist varchar(100)); 
-    insert into song (id, title, artist) values = (101, 'Let it be', 'Beatles');
-    insert into song (id, title, artist) values = (102, 'Hotel California', 'Eagles');
-    insert into song (id, title, artist) values = (103, 'Kashmir', 'Led Zeppelin');
+   
     
 }
