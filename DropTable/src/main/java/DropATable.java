@@ -38,6 +38,6 @@ public class DropATable {
             System.out.println("problem1: " + e.getMessage() + '\n');
         }
     }
-    drop table song;
+   
 
 }
