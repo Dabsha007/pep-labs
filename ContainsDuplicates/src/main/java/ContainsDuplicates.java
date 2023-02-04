@@ -8,6 +8,16 @@ public class ContainsDuplicates {
      * @return true if nums contains any duplicate values, false if it does not.
      */
     public boolean containsDuplicate(int[] nums){
-        return false;
+        while(true){
+            if(nums[].set() == nums[].contains()){
+                return "false";
+           
+            }else if(nums[].set() != nums[].contains()){
+                return "ture"; 
+
+                }
+            }
+        
+        return false; // this line of code is part of the problem i didn't add anything here
     }
 }
