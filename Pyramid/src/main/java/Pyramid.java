@@ -27,6 +27,11 @@ public class Pyramid {
      * @return a string representation of the pyramid.
      */
     public String returnPyramid(int n){
-        return "";
+        String Pyrmaid = n;                    // i wrote this line of code
+        if(int i = 0; i <= n.lenght ; i++ ){   // i wrote this line of code
+            Pyrmaid = Pyrmaid + i + "";        // i wrote this line of code
+
+        }
+        return "Pyramid";                      // i wrote this Pyramid the return was empty " ";
     }
 }
