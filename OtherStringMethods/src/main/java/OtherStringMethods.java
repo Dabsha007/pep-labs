@@ -11,8 +11,14 @@ public class OtherStringMethods {
      * @return
      */
     public String partOfString(String s, int start, int end){
+        String str = "s";                                       //i wrote this line
+        s = "start".substring(0,5);        //i wrote this line
+            String str1 = "s";                                  //i wrote this line
+        s = "end".substring(0,3);          //i wrote this line
+        
         return "";
-    }
+            
+}
 
     /**
      * All classes have methods equals and toString because they inherit them from the Object class by extending the
