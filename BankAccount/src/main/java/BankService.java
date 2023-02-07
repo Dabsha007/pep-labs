@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * This service class is intended to contain the basic logic for deposits and withdrawls to a bank account
  * Separating menu logic and bank logic is good for two reasons: it makes both classes as simple
@@ -23,6 +25,10 @@ public class BankService {
      * @param amount the amount to be deposited.
      */
     public void deposit(double amount){
+        Scanner sc = new Scanner(System.in); //i wrote this line of code
+        double input = sc.nextDouble(); //i wrote this line of code
+        input.deposite(500.00); //i wrote this line of code
+
 
     }
 
