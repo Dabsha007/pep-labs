@@ -24,12 +24,9 @@ public class BankService {
      * TODO: implement functionality to increase the user's balance by amount.
      * @param amount the amount to be deposited.
      */
+
     public void deposit(double amount){
-        Scanner sc = new Scanner(System.in); //i wrote this line of code
-        double input = sc.nextDouble(); //i wrote this line of code
-        input.deposite(500.00); //i wrote this line of code
-
-
+        balance += amount; 
     }
 
     /**
@@ -38,7 +35,10 @@ public class BankService {
      * @param amount the amount to be withdrawn.
      */
     public void withdraw(double amount){
-
+         
+        if(amount <= balance){
+            balance -= amount; 
+        }
     }
 
     /**
@@ -46,6 +46,9 @@ public class BankService {
      * @return the user's balance.
      */
     public double getBalance(){
-        return 0;
+        double x = balance; 
+
+        return x;
     }
 }
+
