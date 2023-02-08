@@ -1,4 +1,4 @@
-SELECT * FROM table_left LEFT OUTER JOIN table_right ON class_title = table_right.student;
+SELECT * FROM class LEFT OUTER JOIN student ON class.class_title = student.class_title;
 
  --SELECT * FROM table_left
  --FULL OUTER JOIN table_right ON table_left.character = table_right.character

@@ -1,4 +1,4 @@
-SELECT * FROM table_right RIGHT OUTER JOIN table_left ON class_title = table_right.textbook;
+SELECT * FROM class RIGHT OUTER JOIN textbook ON class.class_title = textbook.class_title;
 
 
 
