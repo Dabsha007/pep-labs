@@ -1,1 +1,3 @@
-SELECT * FROM table_left INNER JOIN table_right ON table_left.column1 = table_right.column3 WHERE table_left.column1 = teacher_name WHERE table_right.column3 = student_name ;
+SELECT * FROM student         
+INNER JOIN class ON student.class_title = class.class_title 
+WHERE class.teacher_name = 'Ms. Lovelace';
