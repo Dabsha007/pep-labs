@@ -27,11 +27,21 @@ public class Pyramid {
      * @return a string representation of the pyramid.
      */
     public String returnPyramid(int n){
-        String Pyrmaid = n;                    // i wrote this line of code
-        if(int i = 0; i <= n.lenght ; i++ ){   // i wrote this line of code
-            Pyrmaid = Pyrmaid + i + "";        // i wrote this line of code
+        String s = "";                     
+        for(int i = 0; i < n ; i++ ){   
+            for(int e = 0; e <= i; e++){
+                s = s + "*"; 
+                
+            }
+            s =  s +"\n" ; 
 
         }
-        return "Pyramid";                      // i wrote this Pyramid the return was empty " ";
+        return s;                      
     }
+
+    public static void main(String[] args) {
+        System.out.println(new Pyramid().returnPyramid(5));
+    }
+    
 }
+
