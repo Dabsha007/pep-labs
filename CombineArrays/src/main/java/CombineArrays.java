@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class CombineArrays {
     /**
@@ -8,8 +9,21 @@ public class CombineArrays {
      * @return an array containing the contents of arr1 followed by the contents of arr2.
      */
     public int[] combine(int[] arr1, int[] arr2){
-        int[]arr = {arr1[] + arrt2[]}; // i wrote this line 
+        ArrayList<Integer> x = new ArrayList<Integer>(); 
 
-        return null;
+        for(int i = 0; i < arr1.length; i ++ ){
+            x.add(arr1[i]);
+            }
+        
+        for(int e = 0; e < arr2.length; e++){
+           x.add(arr2[e]); 
+
+        }
+        int[] arr = new int[x.size()];
+        for(int i = 0; i < arr.length; i ++) {
+            arr[i] = x.get(i);
+        }
+
+        return arr;
     }
 }
