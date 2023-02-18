@@ -11,6 +11,13 @@ public class Add {
      * @return the sum of a and b.
      */
     public int addNumbers(int a, int b){
-        return 0;
+       int sum = (a + b); 
+        return sum;
     }
+    public static void main(String[]args){
+        Add ad1 = new Add();
+        int sum = ad1.addNumbers(8, 6); 
+        System.out.println(sum);
+    } 
+
 }
