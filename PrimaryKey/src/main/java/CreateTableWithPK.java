@@ -67,4 +67,6 @@ public class CreateTableWithPK {
             System.out.println("problem1: " + e.getMessage() + '\n');
         }
     }
+   
+    
 }
