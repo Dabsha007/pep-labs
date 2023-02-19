@@ -16,6 +16,11 @@ public class ExceptionChallenge {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
-    public void mustThrow(){
+    public void mustThrow() throws ArrayIndexOutOfBoundsException {
+        
+        int[] numbers = {3, 4, 5, 6, 6};
+        System.out.println(numbers[10]);
     }
+    
+   
 }
