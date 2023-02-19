@@ -11,9 +11,19 @@ public class EvenOrOdd {
      * divided by 2 is naturally even.
      *
      * @param n a number.
-     * @return a String "Even" if n is even, and "Odd" of in is odd. The test cases are case-sensitive.
+     * @return a String "Even" if n is even, and "Odd" if n is odd. The test cases are case-sensitive.
      */
     public String decide(int n){
-        return "";
+        if(n%2 == 0){
+            return "Even"; 
+        }
+        else {
+            return "Odd";
+        }
+
     }
+    public static void main(String[]args){
+        EvenOrOdd number = new EvenOrOdd ();
+        String num = number.decide(3); 
+        }
 }
